@@ -96,7 +96,9 @@ function tagToHTML(tagname) {
 function reccomendedVideoToHTML(video) {
     return `<div class="video__item flex column unbound">
         <a href="./watch.html?v=${video[ID]}" class="flex column">
-            <img src="${video[THUMBNAIL]}">
+            <div class="video__item__image">
+                <img src="${video[THUMBNAIL]}">
+            </div>
             <div class="video__item__info flex column has-actions">
                 <div class="video__item__info__title">${video[TITLE]}</div>
             </div>
