@@ -208,7 +208,7 @@ function video_to_html(video) {
 
 function display_videos(query, videos) {
     content = '';
-    for (var i = 0; i < Math.min(videos.length, 50); i++) {
+    for (var i = 0; i < Math.min(videos.length, 30); i++) {
         content += video_to_html(videos[i][0]);
     }
     document.getElementById("search-results").innerHTML = content;

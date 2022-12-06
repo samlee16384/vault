@@ -96,12 +96,7 @@ function tagToHTML(tagname) {
 function reccomendedVideoToHTML(video) {
     return `<div class="video__item flex column unbound">
         <a href="./watch.html?v=${video[ID]}" class="flex column">
-            <div class="video__item__image" style="background: url(${video[THUMBNAIL]}) center center / cover no-repeat transparent;">
-                <!---->
-                <div class="video__item__image__progress_playback">
-                    <div class="video__item__image__progress_playback__fill"></div>
-                </div>
-            </div>
+            <img src="${video[THUMBNAIL]}">
             <div class="video__item__info flex column has-actions">
                 <div class="video__item__info__title">${video[TITLE]}</div>
             </div>
