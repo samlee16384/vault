@@ -64,7 +64,7 @@ async function watch(video_id) {
         'THE HOTTEST SNEAKY SEX SCENE',
         'hot young girls sneaking behind their boyfriends and parents so they can enjoy a hot fuck, sucking big dicks, getting their cunts fucked hardcore!'
     )
-    for (const vid of getRandom(db, 10)) {
+    for (const vid of getRandom(db, 5)) {
         trendingHTML += reccomendedVideoToHTML(vid);
     }
     document.getElementById('trending-videos').innerHTML = trendingHTML
