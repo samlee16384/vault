@@ -1,0 +1,46 @@
+/*
+100 - ultralight
+200 - light
+300 - thin
+400 - regular
+500 - medium
+600 - semibold
+700 - bold
+800 - heavy
+900 - black
+*/
+
+@font-face {
+    font-display: swap;
+    font-family: Whitney;
+    font-weight: 300;
+    src: url(whitney-300.woff) format("woff")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitney;
+    font-weight: 400;
+    src: url(whitney-400.woff) format("woff")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitney;
+    font-weight: 500;
+    src: url(whitney-500.woff) format("woff")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitney;
+    font-weight: 600;
+    src: url(whitney-600.woff) format("woff")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitney;
+    font-weight: 700;
+    src: url(whitney-700.woff) format("woff")
+}

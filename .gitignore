@@ -1,0 +1,10 @@
+
+*.jpg
+*.webp
+*.png
+*.jpeg
+*.psd
+*.csv
+index.js
+idf.js
+db.js

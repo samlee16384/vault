@@ -1,0 +1,70 @@
+adultforce
+H.tv filtering and UI
+Neon logo
+filter by site, star, tag, blacklist
+Sort by date, popularity
+Scrape video url, title, tags, stars, comments, date, thumbnail
+Ability to download, login and favorite + set default filters with firebase, 
+
+find similar videos using cosine similarity, on tags, Find other videos with star
+
+streamline parser so i can rerun in one go and update database, index, etc with new videos
+spoof by adding a week to each date, and only showing videos with a spoofed upload date before the current date
+this way, the streamlined parser and appropriate updates only need to be run once a week
+
+
+
+
+MVP
+- [x] view counter
+- [x] clean index.html of gunk
+- [x] auto page population
+- [x] dynamic url
+- [x] random video
+- [x] $1 full access
+- [ ] rebrand ALL hanime logos/text/seo
+- [x] chage onclicks to real hrefs
+    - [x] dont autoload the landing images
+- [ ] optimize load time
+- [x] blazingly fast github hosted db
+
+- [x] WATCH
+    - [x] video player
+    - [x] fixed screwed up watch css
+    - [x] download, hd modes, watch full video
+    - [x] ad / other videos on RHS
+    - [x] fix cursed tags
+    - [x] fix cursed css
+    - [ ] add affiliate href to DOWNLOAD, FULL HD, affiliate images
+    - [ ] get some spicy text on the affiliate images to get people to click
+- [x] LANDING
+    - [x] popular genres 
+    - [x] find cover images for all genres
+    - [x] center the cards
+    - [x] filter by tag
+- [x] SEARCH
+    - [x] video browser needs card format
+    - [x] dynamic search title
+    - [x] 1 video per row
+    - [x] center cards
+    - [ ] default search by date
+    - [ ] get the lagged dates bs working
+
+    - [ ] ads / on RHS
+
+- filtering
+
+
+
+http://www.damplips.com/p/18855/
+http://www.damplips.com/p/23780/
+http://www.damplips.com/p/30003/
+http://www.damplips.com/p/20177/
+http://www.damplips.com/p/31572/
+http://www.damplips.com/p/32545/
+http://www.damplips.com/p/22281/
+http://www.damplips.com/p/18565/
+http://www.damplips.com/p/33083/
+http://www.damplips.com/p/23627/
+http://www.damplips.com/p/34958/
+http://www.damplips.com/p/45486/
